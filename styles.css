@@ -1,0 +1,152 @@
+body{
+    text-align:center;
+    margin: 8px 45px 8px 45px;
+    font-family:'Bungee', cursive;
+    
+}
+ 
+a{
+    margin:10px;
+    color: #7944e6;
+    text-decoration: none;
+    
+}
+
+.pink-section{
+    background-color: #ff00ff;
+}
+
+.display-flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    float:right;
+    font-size: 15px;
+    
+    
+}
+
+.image-size{
+    width:700px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    align-items: center;
+    
+}
+
+#logo-size {
+    width:200px;
+}
+
+img{
+    width:500px;
+}
+
+.black-text {
+    color:black;
+    margin:0px 20px 0px 20px;
+    padding:0px 36px 30px 36px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.indentation {
+    margin: 0px 20px 0px 20px;
+    padding:0px 36px 0px 36px;
+    line-height: 1em;
+    font-size:40px;
+    display:flex;
+    flex-direction: row;
+}
+
+.border {
+    border-style:solid;
+    border-color: #7944e6;
+    border-width:10px;
+    margin-bottom:7em;
+    margin-top:4em;
+    width:500px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: relative;
+}
+
+
+
+
+
+.truck-padding{
+    padding:50px;
+}
+
+.label-font {
+    font-size:40px;
+}
+
+.bottom-label-font {
+    font-size:25px;
+}
+
+.hover:hover{
+    text-decoration: none;
+    
+}
+
+
+
+@media screen and (min-width:768px){
+    .side-by-side-container {
+        display:flex;
+        
+    }
+    .indentation {
+        padding-top: 100px;
+    }
+
+    .left{
+        margin-left:230px;
+    }
+    
+   .plss{
+       display:flex;
+   }
+
+   .pic-size{
+       
+       height:415px;
+   }
+   #logo-size{
+       width:300px;
+   }
+
+   header{
+    display:flex;
+    justify-content: space-between;
+    height:150px;
+    align-items: center;}
+
+    a{
+        margin:20px;
+        color: #7944e6;
+        text-decoration:none;
+    }
+
+    .display-flex {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        float:right;
+        font-size: 25px;
+        
+        
+    }
+    .hover:hover{
+        color: #10fdff;}
+}
